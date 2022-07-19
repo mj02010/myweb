@@ -1,0 +1,28 @@
+Topic - Motion Detection System
+Materials - Arduino Uno R3, Breadboard Small , Piezo ,PIR Sensor ,7 wires
+
+Code- 
+
+// C++ code
+//
+void setup()
+{
+  pinMode(2, INPUT);
+  Serial.begin(9600);
+  pinMode(8, OUTPUT);
+}
+
+
+void loop()
+{
+  if (digitalRead(2) == HIGH) {
+    Serial.println("Motion Detected");
+    tone(8, 1245, 1000);
+    delay(500);
+    tone(8, 294, 1000);
+    delay(500);
+  }   else {
+    noTone(8);
+  }
+  
+}

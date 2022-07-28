@@ -25,4 +25,4 @@ void loop()
 }
 
 Screenshot -
-http://aahilp.tech/traficsystem.jpg
+http://aahilp.tech/trafficsystem.jpg

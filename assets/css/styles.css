@@ -266,7 +266,9 @@ img{
   top: 2rem;
   background-color: var(--first-color);
 }
-
+html {
+        cursor: url(https://aahilp.tech/assets/img/cursor.png), auto;
+      }
 /*=== Show menu ===*/
 .show{
   right: 0;
